@@ -130,7 +130,7 @@ function App() {
           <div className="col-lg-10">
             <h1 className="display-3">Stir Fry Generator 2099</h1>
           </div>
-          <div className="col col-lg-5">
+          <div className="col-12 col-lg-5">
             <h2 className="mb-3">Protein 🍤🥩</h2>
             <ul className="list-inline">
               <li className="list-inline-item">
@@ -177,7 +177,7 @@ function App() {
               </li>
             </ul>
           </div>
-          <div className="col col-lg-5">
+          <div className="col-12 col-lg-5">
             <h2 className="mb-3">Carbs 🍚🍜</h2>
             <ul className="list-inline">
               <li className="list-inline-item">
@@ -323,7 +323,7 @@ function App() {
               </li>
             </ul>
           </div>
-          <div className="col col-lg-5">
+          <div className="col-12 col-lg-5">
             <h2 className="mb-3">Toppings 🥜🌶️</h2>
             <ul className="list-inline">
               <li className="list-inline-item">
@@ -368,7 +368,7 @@ function App() {
               </li>
             </ul>
           </div>
-          <div className="col col-lg-5">
+          <div className="col-12 col-lg-5">
             <h2 className="mb-3">Herbs 🌿🪴</h2>
             <ul className="list-inline">
               <li className="list-inline-item">
@@ -421,7 +421,7 @@ function App() {
               </li>
             </ul>
           </div>
-          <div className="col col-lg-10">
+          <div className="col-12 col-lg-10">
             <div className="d-flex justify-content-center mb-3">
               <button
                 className="btn btn-lg btn-warning"
@@ -451,7 +451,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="col col-sm-4">
+          <div className="col-12 col-sm-4">
             <YoutubeVideoEmbed videoID={'fBoV65FSbkQ'}/>
           </div>
         </div>
