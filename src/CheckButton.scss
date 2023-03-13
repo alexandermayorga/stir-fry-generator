@@ -1,13 +1,15 @@
-.btn-outline-,
-.btn- {
-  &primary:hover,
-  &success:hover,
-  &info:hover,
-  &warning:hover,
-  &danger:hover,
-  &secondary:hover {
-    color: var(--bs-btn-color) !important;
-    background-color: var(--bs-btn-bg) !important;
-    border-color: var(--bs-btn-border-color) !important;
+@media(hover:none) {
+  .btn-outline-,
+  .btn- {
+    &primary:hover,
+    &success:hover,
+    &info:hover,
+    &warning:hover,
+    &danger:hover,
+    &secondary:hover {
+      color: var(--bs-btn-color) !important;
+      background-color: var(--bs-btn-bg) !important;
+      border-color: var(--bs-btn-border-color) !important;
+    }
   }
 }
