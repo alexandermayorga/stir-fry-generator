@@ -1,4 +1,5 @@
 import React from "react";
+import './CheckButton.scss'
 
 export default function CheckButton({ checked=false, baseColor='primary', label, onClicked }){
 
