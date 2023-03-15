@@ -1,9 +1,14 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import CheckButton from "./CheckButton";
 import "./App.css";
 import YoutubeVideoEmbed from "./YoutubeVideoEmbed";
+import ReactGA from "react-ga4";
 
 function App() {
+  useEffect(() => {
+    ReactGA.initialize("G-QHRXB6LR9T");
+  }, []);
+
   //PROTEIN
   const [beef, setBeef] = useState(true);
   const [chicken, setChicken] = useState(true);
@@ -121,6 +126,13 @@ function App() {
     }
 
     setRecipe(newRecipe);
+
+    // Send a custom event
+    ReactGA.event({
+      category: "Button",
+      action: "Click",
+      label: "Generate Recipe", // optional
+    });
   }
 
   return (
@@ -452,7 +464,7 @@ function App() {
             </div>
           </div>
           <div className="col-12 col-sm-4">
-            <YoutubeVideoEmbed videoID={'fBoV65FSbkQ'}/>
+            <YoutubeVideoEmbed videoID={"fBoV65FSbkQ"} />
           </div>
         </div>
       </div>
